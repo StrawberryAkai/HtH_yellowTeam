@@ -36,3 +36,4 @@ if __name__ == "__main__":
     opponent = Hero("Yuxuan", 200)
     print(my_hero.name)
     print(my_hero.current_health)
+    print(my_hero.battle(opponent))
