@@ -43,3 +43,8 @@ if __name__ == "__main__":
   my_hero = Hero("Grace Hopper", 200)
   print(my_hero.name)
   print(my_hero.current_health)
+  # below checks whether battle method works
+  opponent_hero = Hero("Leonard Connor", 200)
+  print(opponent_hero.name)
+  print(opponent_hero.current_health)
+  my_hero.battle(opponent_hero)
